@@ -1,0 +1,23 @@
+.containerMessage {
+  display: inline-flex;
+}
+.welcome {
+  margin-right: 20px;
+
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 24;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.welcomeButton {
+  padding: 6px 15px;
+  border: 1px solid #1083eb8a;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #1083eb8a;
+}
+.welcomeButton:hover,
+.welcomeButton:focus {
+  background-color: #1083eb8a;
+  color: #ffffff;
+}

@@ -1,0 +1,64 @@
+.sectionHome {
+  padding: 50px 0;
+}
+.containerHome {
+  padding: 0 30px;
+}
+.conteinerTitle {
+  position: relative;
+  margin: 0;
+  font-weight: 900;
+  font-size: 110px;
+  line-height: 1.9;
+  color: #ffffff;
+}
+.buttonHome {
+  position: absolute;
+  right: 0;
+  transform: translate(-230px, -110px);
+
+  font-size: 35px;
+  font-weight: 500;
+  padding: 20px 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #1083eb8a;
+  border: 2px solid #1083eb8a;
+}
+.buttonHome:hover,
+.buttonHome:focus {
+  background-color: #1083eb8a;
+  color: #ffffff;
+}
+
+.listHome {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #357cbdfa;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  transform: translate(452px, -423px);
+}
+
+.modal:hover,
+.modal:focus {
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.12),
+    4px 7px 7px rgba(252, 240, 240, 0.06), 2px 6px 8px rgba(255, 247, 247, 0.16);
+  transform: translate(452px, -423px);
+}
+.spanText {
+  margin-left: 15px;
+}
+.spanText:hover,
+.spanText:hover {
+  color: #ffffff;
+}

@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-
 import { Contacts } from 'components/Contacts/Contacts';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { fetchContacts } from 'redux/operation';
+import { fetchContacts } from 'redux/contacts/contacts-operation';
 
 import s from './ContactsList.module.css';
 

@@ -1,0 +1,19 @@
+.navigation {
+  display: inline-block;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-right: 30px;
+  padding: 15px 0;
+}
+.navigation:hover,
+.navigation:focus {
+  color: #1083eb8a;
+}
+
+.navigationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
