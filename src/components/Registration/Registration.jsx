@@ -33,7 +33,7 @@ export const Registration = () => {
       <div className={s.containerRegister}>
         <form onSubmit={handleSubmit} className={s.registerForm}>
           <label className={s.labelRegistaer}>
-            Имя
+            Name
             <input
               type="text"
               name="name"
@@ -48,7 +48,7 @@ export const Registration = () => {
             />
           </label>
           <label className={s.labelRegistaer}>
-            Почта
+            Email
             <input
               type="email"
               name="email"
@@ -62,7 +62,7 @@ export const Registration = () => {
             />
           </label>
           <label className={s.labelRegistaer}>
-            Пароль
+            Password
             <input
               type="password"
               name="password"
@@ -76,7 +76,7 @@ export const Registration = () => {
             />
           </label>
           <button type="submit" className={s.registerButton}>
-            Зарагестрироваться
+            Register
           </button>
         </form>
       </div>

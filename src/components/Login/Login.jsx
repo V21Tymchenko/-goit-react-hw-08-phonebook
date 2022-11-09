@@ -30,7 +30,7 @@ export const Login = () => {
       <div className={s.containerLogin}>
         <form onSubmit={handleSubmit} className={s.loginForm}>
           <label className={s.labelLogin}>
-            Пароль
+            Password
             <input
               onChange={hendleChange}
               type="password"
@@ -45,7 +45,7 @@ export const Login = () => {
             />
           </label>
           <label className={s.labelLogin}>
-            Почта
+            Email
             <input
               onChange={hendleChange}
               type="email"
@@ -58,7 +58,7 @@ export const Login = () => {
               className={s.inputLogin}
             />
           </label>
-          <Button type="submit">Войти</Button>
+          <Button type="submit">Enter</Button>
         </form>
       </div>
     </section>
