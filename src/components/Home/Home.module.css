@@ -14,8 +14,9 @@
 }
 .buttonHome {
   position: absolute;
-  right: 0;
-  transform: translate(-230px, -110px);
+  top: 70%;
+  left: 50%;
+  transform: translate (-50%, 0%);
 
   font-size: 35px;
   font-weight: 500;
@@ -46,7 +47,8 @@
   border-radius: 5px;
   padding: 20px;
   width: 400px;
-  transform: translate(452px, -423px);
+  top: 0;
+  transform: translate(427px, 53px);
 }
 
 .modal:hover,
