@@ -37,6 +37,7 @@ export const ContactsForm = () => {
     e.preventDefault();
     if (checkName(name)) {
       alert(`${name} is already in contacts`);
+      return;
     }
     onSubmit(name, number);
     setName('');
